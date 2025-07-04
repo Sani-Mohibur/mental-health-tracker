@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+/* Define a custom dark variant using the data-theme attribute */
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+/* Theme tokens */
+@theme {
+  --color-background: #ffffff;
+  --color-text: #111827;
+}
+
+/* Dark theme override */
+:root[data-theme="dark"] {
+  --color-background: #111827;
+  --color-text: #f9fafb;
+}
+
+.bg-background {
+  background-color: var(--color-background);
+}
+
+.text-text {
+  color: var(--color-text);
+}
