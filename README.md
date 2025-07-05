@@ -1,12 +1,30 @@
-# React + Vite
+**Mental Health Tracker**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Mental Health Tracker is a modern, responsive web application built with React, Vite, and Tailwind CSS that helps users monitor their moods, journal thoughts, and practice mental wellness exercises. This app aims to promote self-awareness and emotional well-being through easy-to-use features like mood tracking, journaling, and guided exercises.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Features**
 
-## Expanding the ESLint configuration
+Mood Tracker: Quickly log your daily mood using expressive emojis and visualize your mood trends over time with interactive charts.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Journal: Write and save daily journal entries to reflect on your thoughts and experiences.
+
+Breathing Exercises: Guided breathing exercises with smooth animations to help reduce stress and promote relaxation.
+
+Dark Mode: Switch between light and dark themes for comfortable viewing day and night.
+
+Responsive Design: Fully responsive layout optimized for mobile, tablet, and desktop screens.
+
+Local Storage: All user data is stored locally in the browser to maintain privacy without requiring user accounts.
+
+**Technologies Used**
+
+React: Frontend JavaScript library for building UI components.
+
+Vite: Modern frontend build tool for faster development and optimized builds.
+
+Tailwind CSS: Utility-first CSS framework for rapid UI styling.
+
+Recharts: Charting library for visualizing mood history.
+
+React Router: Client-side routing for a single-page app experience.
