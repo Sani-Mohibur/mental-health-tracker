@@ -1,30 +1,75 @@
-**Mental Health Tracker**
+# 🧠 Mental Health Tracker
 
-Mental Health Tracker is a modern, responsive web application built with React, Vite, and Tailwind CSS that helps users monitor their moods, journal thoughts, and practice mental wellness exercises. This app aims to promote self-awareness and emotional well-being through easy-to-use features like mood tracking, journaling, and guided exercises.
+The **Mental Health Tracker** is a self-care web app built with React that helps users monitor their mood, write journals, and explore exercises to support their mental well-being.
 
+## 🌟 Features
 
-**Features**
+- ✅ Mood tracking with emoji selection
+- 📓 Journal your daily thoughts
+- 🧘 Exercises and breathing practices
+- 🌙 Dark mode support
+- 📱 Responsive design for mobile & desktop
 
-Mood Tracker: Quickly log your daily mood using expressive emojis and visualize your mood trends over time with interactive charts.
+## 🔧 Tech Stack
 
-Journal: Write and save daily journal entries to reflect on your thoughts and experiences.
+- **Frontend**: React, CSS
+- **Routing**: React Router DOM
+- **State Management**: useState, useEffect
+- **Hosting**: Vercel
 
-Breathing Exercises: Guided breathing exercises with smooth animations to help reduce stress and promote relaxation.
+## 🚀 Getting Started
 
-Dark Mode: Switch between light and dark themes for comfortable viewing day and night.
+Follow these steps to set up the project locally:
 
-Responsive Design: Fully responsive layout optimized for mobile, tablet, and desktop screens.
+### 1. Clone the repository
 
-Local Storage: All user data is stored locally in the browser to maintain privacy without requiring user accounts.
+```bash
+git clone https://github.com/Sani-Mohibur/mental-health-tracker.git
+```
+### 2. Navigate into the project folder
+```bash
+cd mental-health-tracker
+```
+### 3. Install dependencies
+```bash
+npm install
+```
+### 4. Start the development server
+```bash
+npm run dev
+```
+Once started, open your browser and go to:  
+[http://localhost:5173/](http://localhost:5173/)
 
-**Technologies Used**
+## 📁 Project Structure
 
-React: Frontend JavaScript library for building UI components.
+```text
+mental-health-tracker/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── context/
+│   ├── pages/
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+└── vite.config.js
+```
 
-Vite: Modern frontend build tool for faster development and optimized builds.
+## 🔗 Live Demo
 
-Tailwind CSS: Utility-first CSS framework for rapid UI styling.
+🌐 [Click here to view the live site](https://mental-health-tracker-two.vercel.app/)
 
-Recharts: Charting library for visualizing mood history.
+## ✍️ Author
 
-React Router: Client-side routing for a single-page app experience.
+- **Mohibur Rahman Sani**  
+  GitHub: [@Sani-Mohibur](https://github.com/Sani-Mohibur)
+
+## 📄 License
+
+This project is licensed under the MIT License.  
+See the [LICENSE](LICENSE) file for details.
