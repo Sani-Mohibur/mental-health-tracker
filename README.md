@@ -2,6 +2,11 @@
 
 The **Mental Health Tracker** is a self-care web app built with React that helps users monitor their mood, write journals, and explore exercises to support their mental well-being.
 
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+
 ## 🌟 Features
 
 - ✅ Mood tracking with emoji selection
